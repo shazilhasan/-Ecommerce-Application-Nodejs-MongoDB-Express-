@@ -21,7 +21,7 @@ const adminRouter = require ('./server/router/router');
 const product = require('./server/model/product/product');
 
 //dataBaseConection
-mongoose.connect('mongodb://127.0.0.1:27017/amarkart')
+mongoose.connect('mongodb://technologics-server:hd4a9UriDrebEAnhxNvWpLdDnUpiSFaiCXTJ4R6wXF54cHkIiCGbvsXZK666gHrsoBa3Tqrwjs3QACDbICwNHA==@technologics-server.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@technologics-server@')
 .then(response=>{
  console.log('mongodb onnected');
 }).catch(err=>{
